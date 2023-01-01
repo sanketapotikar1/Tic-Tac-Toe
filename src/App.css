@@ -1,0 +1,30 @@
+
+.App{
+  text-align: center;
+}
+.game-box{
+  text-align: center;
+  height : 160px;
+  /* width : 160px; */
+  /* background-color : orange; */
+  color:black;
+  font-size: 160px;
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.game-box:hover{
+  background: rgb(227, 227, 227);
+}
+
+.board{
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
